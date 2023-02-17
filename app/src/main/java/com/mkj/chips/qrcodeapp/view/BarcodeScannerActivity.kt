@@ -35,6 +35,14 @@ class BarcodeScannerActivity : AppCompatActivity() {
 
         barcodeBoxView = BarcodeBoxView(this)
 
+       /* addContentView(
+            barcodeBoxView,
+            ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT
+            )
+        )*/
+
         addContentView(
             barcodeBoxView,
             ViewGroup.LayoutParams(

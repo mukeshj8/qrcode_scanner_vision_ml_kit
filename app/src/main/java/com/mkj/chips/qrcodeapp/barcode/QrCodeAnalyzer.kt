@@ -77,7 +77,7 @@ class QrCodeAnalyzer(
                             context as BarcodeScannerActivity
                             context.finish()
                             val intent = Intent(context, AttendanceActivity::class.java)
-                            intent.putExtra("QR_VAL", barcode.rawValue)
+                            //intent.putExtra("QR_VAL", barcode.rawValue)
                             context.startActivity(intent)
 
                         }
